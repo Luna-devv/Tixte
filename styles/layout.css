@@ -27,9 +27,9 @@ li {
     padding-left: 0.1rem;
 }
 
-.header-button {
+.button {
     cursor: pointer;
-    background-color: rgba(174, 133, 187, 0.2);
+    background-color: #3B3B3B;
     padding: 0.4rem;
     padding-right: 0.6rem;
     padding-left: 0.6rem;
@@ -39,9 +39,9 @@ li {
     color: #f0f0f0
 }
 
-.header-button:hover {
+.button:hover {
     transform: scale(1.06);
-    background-color: rgba(174, 133, 187, 0.1);
+    background-color: #353535;
 }
 
 .header-user {
