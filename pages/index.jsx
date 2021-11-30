@@ -1,24 +1,31 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
 import {
-    HomeIcon,
-    CakeIcon,
-    CodeIcon,
-    HeartIcon,
-    LockClosedIcon,
-    NewspaperIcon,
-    LinkIcon
-} from '@heroicons/react/outline'
+    ExternalLinkIcon
+} from '@heroicons/react/outline';
 
-const cards = [];
+const cards = [{
+    title: 'Register',
+    qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
+    url: '/read/register',
+    important: false
+}];
 
 export default class Homepage extends React.Component {
 
     render() {
         return (
             <>
-
+                <div className='center'>
+                    <div className='menu'>
+                        {cards.map(card => (
+                            <button className={card.important ? 'blue-card card' : 'card'} onClick={()=> window.location.href=card.url}>
+                                <h>{card.title}</h> <ExternalLinkIcon className='ico' /> <br />
+                                <hh>{card.qestion}</hh>
+                            </button>
+                        ))}
+                    </div>
+                </div>
             </>
         );
     };
