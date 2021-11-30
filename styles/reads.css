@@ -1,0 +1,60 @@
+.read {
+    margin: 1rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .read {
+        position: fixed;
+        top: 8rem;
+        left: 12%;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .read {
+        left: 30%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.readTitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyIco {
+    visibility: hidden;
+}
+
+.readTitle:hover > .copyIco {
+    visibility: visible;
+}
+
+.readContainer {
+    margin-bottom: 3rem;
+}
+
+.readContent {
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
+    color: rgba(170, 170, 170, 0.8);
+    user-select: text;
+}
+
+.mention {
+    background-color: rgb(88, 101, 242, 0.4);
+    transition-duration: 400ms;
+    padding: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+.mention:hover {
+    background-color: rgb(88, 101, 242, 0.2);
+}
+
+bold {
+    font-family: 'Poppins', sans-serif;
+}

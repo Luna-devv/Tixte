@@ -22,6 +22,7 @@ body {
 
 a {
     all: unset;
+    cursor: default;
 }
 
 .link {
@@ -31,8 +32,19 @@ a {
     transition-duration: 300ms;
 }
 
+.df-link {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(123, 128, 201, 0.8);
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
 .link:hover {
     color: rgba(var(--color), 1);
+}
+
+.df-link:hover {
+    color: rgb(142, 146, 185);
 }
 
 ::-webkit-scrollbar {
@@ -57,9 +69,18 @@ a {
     transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 400px) {
+    .center {
+        position: fixed;
+        top: 0%;
+        margin-top: 10rem;
+        transform: translate(-50%);
+    }
+}
+
 .menu {
     background-color: #1C1C1C;
-    margin: 1rem;
+    margin: 0.2rem;
     padding: 1.4rem;
     border-radius: 0.6rem;
 }
@@ -87,6 +108,7 @@ button {
     padding: 0.6rem;
     cursor: pointer;
     transition-duration: 300ms;
+    margin-bottom: 1rem;
 }
 
 .card:hover {
