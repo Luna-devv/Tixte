@@ -8,7 +8,13 @@ const cards = [{
     title: 'Register',
     qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
     url: '/read/register',
-    important: false
+    important: true
+}, {
+    title: 'Register',
+    qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
+    url: '/read/register',
+    important: true
+    
 }];
 
 export default class Homepage extends React.Component {
@@ -19,11 +25,15 @@ export default class Homepage extends React.Component {
                 <div className='center'>
                     <div className='menu'>
                         {cards.map(card => (
-                            <button className={card.important ? 'blue-card card' : 'card'} onClick={()=> window.location.href=card.url}>
-                                <h>{card.title}</h> <ExternalLinkIcon className='ico' /> <br />
-                                <hh>{card.qestion}</hh>
-                            </button>
+                            <>
+                                <button className={card.important ? 'blue-card card' : 'card'} onClick={()=> window.location.href=card.url}>
+                                    <h>{card.title}</h> <ExternalLinkIcon className='ico' /> <br />
+                                    <hh>{card.qestion}</hh>
+                                </button>
+                                <br />
+                            </>
                         ))}
+                        <div style={{color: '#919191'}}> Open source project by <a className='link' href='/go/donate'>Luna</a></div>
                     </div>
                 </div>
             </>
