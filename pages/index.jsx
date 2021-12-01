@@ -6,12 +6,12 @@ import {
 
 const cards = [{
     title: 'Register',
-    qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
+    qestion: 'How do I register for Tixte?  What is a beta code and how can I get one?',
     url: '/read/register',
     important: true
 }, {
     title: 'Register',
-    qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
+    qestion: 'How do I register for Tixte? What is a beta code and how can I get one?',
     url: '/read/register',
     important: true
     
