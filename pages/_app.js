@@ -12,8 +12,8 @@ export default function render({ Component, pageProps }) {
                 <meta name='viewport' content='width=device-width, initial-scale=0.8' />
                 <script async src='https://arc.io/widget.min.js#3gbCMTjB'></script>
                 <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
-                <meta property='og:description' content="Here you can read through a unoficial Tixte documentation created by Luna." />
-                <meta property='og:title' content='Tixte help house' />
+                <meta property='og:description' content="Here you can read through unoficial Tixte documentation, created by Luna." />
+                <meta property='og:title' content='Tixte Help' />
                 <meta property='og:type' content='website' />
                 <meta name='theme-color' content='#2A78F5' />
                 <title>
