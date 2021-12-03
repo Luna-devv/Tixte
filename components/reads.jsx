@@ -16,16 +16,16 @@ export default function Reads({ data }) {
                         {read?.description ? <><div className='readDescription'> <text dangerouslySetInnerHTML={{ __html: read?.description }}></text> </div> <br /></> : <></>}
                         <div className='readContent'>
                             {read?.list?.map(item => (
-                                <>
-                                    <id style={{ color: '#ababab' }}>{item?.id}{isNaN(item?.id) ? '' : '.'}</id> <text dangerouslySetInnerHTML={{ __html: item?.text }}></text> <br />
-                                    <div style={item?.subs ? { marginBottom: 12 } : {}}>
+                                <div style={{ marginTop: 3 }}>
+                                    <id style={{ color: '#ababab', marginRight: 1 }}>{item?.id}{isNaN(item?.id) ? '' : '.'}</id> <text dangerouslySetInnerHTML={{ __html: item?.text }}></text> <br />
+                                    <div style={item?.subs ? { marginBottom: 4 } : {}}>
                                         {item?.subs?.map(sub => (
                                             <>
-                                                  <text dangerouslySetInnerHTML={{ __html: sub }}></text> <br />
+                                                  <text style={{ color: '#858585', fontSize: 16 }} dangerouslySetInnerHTML={{ __html: sub }}></text> <br />
                                             </>
                                         ))}
                                     </div>
-                                </>
+                                </div>
                             ))}
                         </div>
                         <br />

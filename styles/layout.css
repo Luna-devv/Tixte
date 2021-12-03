@@ -52,3 +52,15 @@ li {
     padding-right: 0.6rem;
     padding-left: 0.6rem;
 }
+
+@media screen and (max-width: 480px) {
+    .normal > .button > hname {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .normal > .button {
+        padding-right: 0.1rem;
+        padding-left: 0.6rem;
+    }
+}
