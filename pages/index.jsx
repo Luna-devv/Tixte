@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import {
     ExternalLinkIcon
@@ -6,15 +7,19 @@ import {
 
 const cards = [{
     title: 'Register',
-    qestion: 'How do I register for Tixte?  What is a beta code and how can I get one?',
-    url: '/read/register',
-    important: true
-}, {
-    title: 'Register',
     qestion: 'How do I register for Tixte? What is a beta code and how can I get one?',
     url: '/read/register',
     important: true
-    
+}, {
+    title: 'Domains',
+    qestion: 'How can I get free domains? How can I use my custom domains?',
+    url: '/read/domains',
+    important: false
+}, {
+    title: 'Styling',
+    qestion: 'How can I customize my embeds? How can I change my upload page?',
+    url: '/read/styling',
+    important: false
 }];
 
 export default class Homepage extends React.Component {
@@ -33,7 +38,9 @@ export default class Homepage extends React.Component {
                                 <br />
                             </>
                         ))}
-                        <div style={{color: '#919191'}}> Open source project by <a className='link' href='/go/donate'>Luna</a></div>
+                        <Link href='/go/luna'>
+                            <div style={{color: '#919191'}}> An open source project by <a className='link'>Luna</a>.</div>
+                        </Link>
                     </div>
                 </div>
             </>
