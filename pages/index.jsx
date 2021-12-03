@@ -10,10 +10,10 @@ const cards = [{
     url: '/read/register',
     important: true
 }, {
-    title: 'Register',
-    qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
+    title: 'Domains',
+    qestion: 'How can I get free domains? How can I use my custom domains?',
     url: '/read/register',
-    important: true
+    important: false
     
 }];
 

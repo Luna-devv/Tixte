@@ -19,7 +19,7 @@ const json = {
         }, {
             id: 4,
             text: 'If you want to link your Tixte account with your discord account, go to <a href="https://discord.com/channels/818940877262553141/818942351946022952" class="mention">#bot-commands</a> on our <a href="/go/discord" class="df-link">discord server</a> and run <a class="highlight">/link [upload_key]</a>.',
-            subs: ['[<a class="link">How to get your UPLOAD_KEY</a>]']
+            subs: ['[<a class="df-link">How to get your UPLOAD_KEY</a>]']
         }]
     }, {
         title: 'Beta code',
