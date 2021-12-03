@@ -1,9 +1,5 @@
 import React from 'react';
-
-import {
-    DuplicateIcon,
-    ExternalLinkIcon
-} from '@heroicons/react/outline';
+import Reads from  '../../components/reads';
 
 const json = [{
     title: 'Register',
