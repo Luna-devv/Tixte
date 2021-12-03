@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import {
     ExternalLinkIcon
@@ -33,7 +34,9 @@ export default class Homepage extends React.Component {
                                 <br />
                             </>
                         ))}
-                        <div style={{color: '#919191'}}> An open source project by <a className='link' href='/go/luna'>Luna</a>.</div>
+                        <Link href='/go/luna'>
+                            <div style={{color: '#919191'}}> An open source project by <a className='link'>Luna</a>.</div>
+                        </Link>
                     </div>
                 </div>
             </>
