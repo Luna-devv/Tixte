@@ -13,7 +13,13 @@ const cards = [{
 }, {
     title: 'Domains',
     qestion: 'How can I get free domains? How can I use my custom domains?',
-    url: '/read/register',
+    url: '/read/domains',
+    important: false
+    
+}, {
+    title: 'Styling',
+    qestion: 'How can I customize my embeds? How can I change my upload page?',
+    url: '/read/styling',
     important: false
     
 }];

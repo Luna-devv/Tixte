@@ -9,7 +9,7 @@ const json = {
         section: 'tixte',
         list: [{
             id: 1,
-            text: 'Go to  the <a href="https://tixte.com/dashboard/domains" class="link">domains tab</a>.'
+            text: 'Go to the <a href="https://tixte.com/dashboard/domains" class="link">domains tab</a>.'
         }, {
             id: 2,
             text: 'Click on the \'Register +\' button on the top of your screen.'
@@ -22,6 +22,10 @@ const json = {
         }, {
             id: 5,
             text: 'Click the \'Register\' button and done 🎉',
+        }],
+        buttons: [{
+            url: 'https://cdn.xyna.space/ks427adar9a.mp4',
+            text: 'Watch video'
         }]
     }, {
         title: 'Custom domains',
