@@ -7,7 +7,7 @@ import {
 
 const cards = [{
     title: 'Register',
-    qestion: 'How can I register me on Tixte? What is a beta code and how can I get one?',
+    qestion: 'How do I register for Tixte? What is a beta code and how can I get one?',
     url: '/read/register',
     important: true
 }, {
@@ -15,13 +15,11 @@ const cards = [{
     qestion: 'How can I get free domains? How can I use my custom domains?',
     url: '/read/domains',
     important: false
-    
 }, {
     title: 'Styling',
     qestion: 'How can I customize my embeds? How can I change my upload page?',
     url: '/read/styling',
     important: false
-    
 }];
 
 export default class Homepage extends React.Component {

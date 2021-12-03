@@ -15,10 +15,10 @@ const json = {
             text: 'Enter a cool username, your email address, a secure password and a <a href="#code" class="df-link">beta code</a>.'
         }, {
             id: 3,
-            text: 'If you want to use <a href="https://getsharex.com/" class="df-link">shareX</a> or <a href="https://magiccap.me/" class="df-link">magicCap</a> to create screenshots go to the <a href="https://tixte.com/dashboard/configurations" class="df-link">configurations tab</a> to download the respective configs.'
+            text: 'If you want to use <a href="https://getsharex.com/" class="df-link">ShareX</a> or <a href="https://magiccap.me/" class="df-link">MagicCap</a> to create screenshots go to the <a href="https://tixte.com/dashboard/configurations" class="df-link">configurations tab</a> to download the respective configs.'
         }, {
             id: 4,
-            text: 'If you want to link your Tixte account with your discord account, go to <a href="https://discord.com/channels/818940877262553141/818942351946022952" class="mention">#bot-commands</a> on our <a href="/go/discord" class="df-link">discord server</a> and run <a class="highlight">/link [upload_key]</a>.',
+            text: 'If you want to link your Tixte account with your Discord account, go to <a href="https://discord.com/channels/818940877262553141/818942351946022952" class="mention">#bot-commands</a> on our <a href="/go/discord" class="df-link">discord server</a> and run <a class="highlight">/link [upload_key]</a>.',
             subs: ['[<a class="df-link">How to get your UPLOAD_KEY</a>]']
         }]
     }, {
@@ -31,7 +31,7 @@ const json = {
             subs: ['Go to <a href="https://tixte.cc/beta" class="link">tixte.cc/beta</a> and enter your email address, you should receive an email when the developers start giving out codes.']
         }, {
             id: '•',
-            text: '<bold>Boost our discord server</bold>',
+            text: '<bold>Boost our Discord server</bold>',
             subs: ['By boosting our <a href="/go/discord" class="df-link">Discord server</a>, our bot <a href="https://discord.com/users/825825288608415754" class="mention">@Tixte Manager</a> will send you a DM with a beta code, plus you get Tixte Turbo as long as you boost.', 'You you will be still able to use your account with the free plan even if you stop boosting our server.']
         }, {
             id: '•',
