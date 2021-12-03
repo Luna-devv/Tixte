@@ -36,6 +36,12 @@ export default function Layout({ children }) {
                 </li>
             </ul>
         </header>
+        <toast>
+            <div id='toastDiv' className='toast'>
+                <code className='toast-title'> UPDATE - 12/03/2021 </code>  <br />
+                <text>We have updated the page for you!</text>
+            </div>
+        </toast>
         <main>{children}</main>
       </>
     )

@@ -74,3 +74,24 @@ li {
         padding-left: 0.6rem;
     }
 }
+
+.toast {
+    position: relative;
+    top: 1rem;
+    margin-left: 80%;
+    margin-right: 1rem;
+    background-color: rgba(var(--color), 0.3)!important;
+    border: solid rgba(var(--color), 0.2) 0.2rem!important;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition-duration: 300ms;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .toast {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}

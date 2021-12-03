@@ -14,6 +14,8 @@ html {
     color: rgb(221, 217, 230);
     margin: 0rem;
     user-select: none;
+    overflow: overlay;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 body {
