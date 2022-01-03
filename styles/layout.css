@@ -1,0 +1,97 @@
+.header {
+    user-select: none;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #1C1C1C;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    display: flex
+}
+
+li {
+    position: relative;
+    right: 1.1rem;
+    margin: -0.1rem;
+    margin-right: 1rem;
+}
+
+.header-ico {
+    position: relative;
+    top: 0.192rem;
+    right: 0.25rem;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #3B3B3B;
+    padding: 0.3rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    border-radius: 0.4rem;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 400ms;
+    color: #f0f0f0
+}
+
+.button:hover {
+    transform: scale(1.06);
+    background-color: #353535;
+}
+
+.header-user {
+    position: fixed;
+    right: 1rem;
+    top: 0.86rem;
+    padding: 0.4rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+}
+
+.button > .header-ico {
+    position: relative;
+    top: 0.1rem;
+}
+
+.button > hname {
+    position: relative;
+    top: -0.08rem; 
+}
+
+@media screen and (max-width: 480px) {
+    .normal > .button > hname {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .normal > .button {
+        padding-right: 0.1rem;
+        padding-left: 0.6rem;
+    }
+}
+
+.toast {
+    position: relative;
+    top: 1rem;
+    margin-left: 80%;
+    margin-right: 1rem;
+    background-color: rgba(var(--color), 0.3)!important;
+    border: solid rgba(var(--color), 0.2) 0.2rem!important;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition-duration: 300ms;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .toast {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
