@@ -51,10 +51,10 @@ const json = {
         }, {
             id: 6,
             text: 'Now click the \'Register\' button.',
-            subs: ['Note that it can take up to 48 hours for your changes to be detected due to DNS caches. However, normally it shouldn\'t take more than 2-3 hours.']
+            subs: ['Note that it can take up to 48 hours for your changes to be detected due to DNS caches. However, it shouldn\'t take more than 2-3 hours.']
         }, {
             id: 7,
-            text: 'Now you should be read to go 🎉'
+            text: 'Now you should be ready to go 🎉'
         }],
     }]
 };
