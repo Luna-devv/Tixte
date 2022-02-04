@@ -4,8 +4,8 @@
 
 @media screen and (min-width: 1400px) {
     .read {
-        position: fixed;
-        top: 8rem;
+        position: relative;
+        top: -1rem;
         left: 12%;
     }
 }
@@ -17,9 +17,10 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .readTitle {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -33,7 +34,7 @@
     visibility: hidden;
 }
 
-.readTitle:hover > .copyIco {
+.readTitle:hover>.copyIco {
     visibility: visible;
 }
 
@@ -43,8 +44,8 @@
 
 .readContent {
     margin-top: 0.6rem;
-    font-size: 1.05rem;
-    color: rgba(170, 170, 170, 0.8);
+    font-size: 1.16rem;
+    color: rgba(221, 221, 221, 0.8);
     user-select: text;
 }
 

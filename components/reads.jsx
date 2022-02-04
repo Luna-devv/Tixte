@@ -19,19 +19,19 @@ export default function Reads({ data }) {
             <div className='read'>
                 {data.payload?.map(read => (
                     <section id={read?.section} className='readContainer'>
-                        <a className='readTitle' href={'/read/' + data?.page + '#' + read?.section || read.title?.replace(` `, ``)?.toLowerCase()} style={{ cursor: 'pointer' }}> 
-                        {read?.title} <DuplicateIcon className='copyIco ico' /> </a>
-                        {read?.require?.length > 0 ? <requirements style={{ fontSize: 14, color: '#373737' }}> (requires {read.require.map(req => (<require style={{ color: '#464646' }}>{req}<dark style={{ color: '#373737' }}>{num < read?.require?.length ? num + 1 < read?.require?.length ? ', ' : ' and ' : ''}</dark> <count style={{display: 'none'}}>{num++}</count></require>))})</requirements> : <></>} <br />
+                        <a className='readTitle' href={'/read/' + data?.page + '#' + read?.section || read.title?.replace(` `, ``)?.toLowerCase()} style={{ cursor: 'pointer' }}>
+                            {read?.title} <DuplicateIcon className='copyIco ico' /> </a>
+                        {read?.require?.length > 0 ? <requirements style={{ fontSize: 14, color: '#373737' }}> (requires {read.require.map(req => (<require style={{ color: '#464646' }}>{req}<dark style={{ color: '#373737' }}>{num < read?.require?.length ? num + 1 < read?.require?.length ? ', ' : ' and ' : ''}</dark> <count style={{ display: 'none' }}>{num++}</count></require>))})</requirements> : <></>} <br />
 
                         {read?.description ? <><div className='readDescription'> <text dangerouslySetInnerHTML={{ __html: read?.description }}></text> </div> <br /></> : <></>}
                         <div className='readContent'>
                             {read?.list?.map(item => (
-                                <div style={{ marginTop: 3 }}>
+                                <div style={{ marginTop: 4 }}>
                                     <id style={{ color: '#ababab', marginRight: 1 }}>{item?.id}{isNaN(item?.id) ? '' : '.'}</id> <text dangerouslySetInnerHTML={{ __html: item?.text }}></text> <br />
                                     <div style={item?.subs ? { marginBottom: 4 } : {}}>
                                         {item?.subs?.map(sub => (
                                             <>
-                                                  <text style={{ color: '#858585', fontSize: 16 }} dangerouslySetInnerHTML={{ __html: sub }}></text> <br />
+                                                <text style={{ color: '#858585', fontSize: 16, marginLeft: 21 }} dangerouslySetInnerHTML={{ __html: sub }}></text> <br />
                                             </>
                                         ))}
                                     </div>

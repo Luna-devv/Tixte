@@ -1,5 +1,5 @@
 import React from 'react';
-import Reads from  '../../components/reads';
+import Reads from '../../components/reads';
 
 const json = {
     page: 'domains',
@@ -55,7 +55,7 @@ const json = {
         }, {
             id: 7,
             text: 'Now you should be ready to go 🎉'
-        }],
+        }]
     }]
 };
 

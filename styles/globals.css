@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
     --color: 42, 120, 245;
 }
 
+body,
 html {
-    font-family: 'Lato', sans-serif;
-    background: #121212;
+    font-family: 'Rubik', sans-serif;
+    background: rgb(18, 18, 18);
     position: relative;
-    min-height: 100%;
     overflow-x: hidden;
     color: rgb(221, 217, 230);
     margin: 0rem;
     user-select: none;
     overflow: overlay;
+    overflow-x: hidden !important;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-body {
-    margin: 0rem;
 }
 
 a {
@@ -73,8 +70,8 @@ a {
 
 @media screen and (max-width: 800px) {
     .center {
-        position:relative;
-        margin-top: 20rem!important;
+        position: relative;
+        margin-top: 20rem !important;
         margin-right: 2rem;
     }
 }
@@ -86,18 +83,18 @@ a {
 }
 
 .blue-card {
-    background-color: rgba(var(--color), 0.3)!important;
-    border: solid rgba(var(--color), 0.2) 0.2rem!important;
+    background-color: rgba(var(--color), 0.3) !important;
+    border: solid rgba(var(--color), 0.2) 0.2rem !important;
 }
 
 button {
-	background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     text-align: left;
 }
 
