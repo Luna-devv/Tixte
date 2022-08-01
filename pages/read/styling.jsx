@@ -23,7 +23,7 @@ const json = {
             subs: ['Note that any files cached by Discord won\'t show the new embed for a while.']
         }],
         buttons: [{
-            url: 'https://cdn.xyna.space/kt49xz3b09a.mp4',
+            url: 'https://us-east-1.tixte.net/uploads/cdn.xyna.space/kt49xz3b09a.mp4',
             text: 'Watch video'
         }]
     }, {
