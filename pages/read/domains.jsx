@@ -24,7 +24,7 @@ const json = {
             text: 'Click the \'Register\' button and done 🎉',
         }],
         buttons: [{
-            url: 'https://cdn.xyna.space/ks427adar9a.mp4',
+            url: 'https://us-east-1.tixte.net/uploads/cdn.xyna.space/ks427adar9a.mp4',
             text: 'Watch video'
         }]
     }, {
@@ -46,7 +46,7 @@ const json = {
             subs: ['Note that you cannot use nested subdomains like \'www.images.***\'.']
         }, {
             id: 5,
-            text: 'After you\'ve entered your domain you need to add the DNS records displayed there. [<a href="https://cdn.xyna.space/ks40e9k8d9a.png" class="df-link">example</a>]',
+            text: 'After you\'ve entered your domain you need to add the DNS records displayed there. [<a href="https://us-east-1.tixte.net/uploads/cdn.xyna.space/ks40e9k8d9a.png" class="df-link">example</a>]',
             subs: ['Note that you should use <a href="https://www.cloudflare.com/" class="df-link">cloudflare</a>. Other DNS management websites maybe won\'t work at all.']
         }, {
             id: 6,
