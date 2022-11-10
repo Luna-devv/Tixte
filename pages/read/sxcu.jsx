@@ -12,14 +12,14 @@ const json = {
             text: 'Go to the <a href="https://getsharex.com" class="link">ShareX Website</a>.'
         }, {
             id: 2,
-            text: 'Download and open the installer.'
+            text: 'Download and open the Installer.'
         }, {
             id: 3,
             text: 'Go through the Installer.'
         }, {
             id: 4,
-            text: 'Open the Intigrations Tab on the Tixte Website and download the Standard Configuration for your desired Domain.',
-            subs: ['Note that you will have to register a Domain and <a href="/read/domains" class="link">set it up with Tixte or set up a Subdomain</a>']
+            text: 'Open the <a href="https://tixte.com/dashboard/integrations" class="link">Intigrations Tab</a> on the Tixte Website and download the Standard Configuration for your desired Domain.',
+            subs: ['Note that you will have to register a Domain and <a href="/read/domains" class="link">set it up with Tixte and/or set up a Subdomain</a> if not already done']
         },
     { 
         id: 5,
