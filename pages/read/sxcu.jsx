@@ -23,7 +23,7 @@ const json = {
         },
     { 
         id: 5,
-        text: 'Open the Configuaration (the Downloaded File) and confirm the Confirmation Box made by ShareX.'
+        text: 'Open the downloaded configuration file and confirm the pop-up from ShareX.'
     },
 {
     id: 6,
