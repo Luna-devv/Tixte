@@ -20,6 +20,11 @@ const cards = [{
     qestion: 'How can I customize my embeds? How can I change my upload page?',
     url: '/read/styling',
     important: false
+}, {
+    title: 'Uploaders',
+    qestion: 'How can I set the Default uploaderfrom ShareX?',
+    url: '/read/sxcu',
+    important: false
 }];
 
 export default class Homepage extends React.Component {
