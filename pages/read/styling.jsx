@@ -9,7 +9,7 @@ const json = {
         section: 'embeds',
         list: [{
             id: 1,
-            text: 'Go to the <a href="https://tixte.com/dashboard/configurations" class="link">configurations tab</a>.'
+            text: 'Go to the <a href="https://tixte.com/dashboard/embed" class="link">Embed Editor tab</a>.'
         }, {
             id: 2,
             text: 'Scroll down to the \'embed\' section.'
@@ -28,19 +28,19 @@ const json = {
         }]
     }, {
         title: 'Custom CSS',
-        require: ['Turbo'],
-        description: 'Is the grey upload page too boring for you?',
+        require: ['a Tixte Turbo subscription'],
+        description: 'Is the default upload page too boring for you? Do you want to spice it up a bit?',
         section: 'css',
         list: [{
             id: 1,
-            text: 'Go to the <a href="https://tixte.com/dashboard/configurations" class="link">configurations tab</a>.'
-        }, {
-            id: 2,
-            text: 'Scroll down to the \'Custom CSS\' section.'
+            text: 'Go to the <a href="https://tixte.com/dashboard/library" class="link">Page Design tab</a>.'
         }, {
             id: 3,
-            text: 'Be creative and design everything with the magic of CSS.',
-            subs: ['Note that you check if you wrote valid CSS.']
+            text: 'Write whatever CSS you want to make your file page look like you want it to.',
+            subs: [
+                'Make sure that the CSS doesn\'t have any errors! You can use a site <a href="http://csslint.net/" class="df-link">like this</a> to check.',
+                'If you already have a CSS file you want to use, you can add it using the import button.'
+            ]
         }, {
             id: 4,
             text: 'Click \'Save Changes\' and done.',

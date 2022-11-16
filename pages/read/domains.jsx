@@ -5,7 +5,7 @@ const json = {
     page: 'domains',
     payload: [{
         title: 'Tixte domains',
-        description: 'Choose a domain from 26+ domain names and create a funny subdomain that suits you.',
+        description: 'Choose from Tixte\'s domain names and create a funny subdomain that suits you.',
         section: 'tixte',
         list: [{
             id: 1,

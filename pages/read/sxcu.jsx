@@ -4,8 +4,8 @@ import Reads from  '../../components/reads';
 const json = {
     page: 'styling',
     payload: [{
-        title: 'SXCU Files',
-        description: 'Want to have your Tixte Domain as a Default Uploader?',
+        title: 'Use Tixte with ShareX',
+        description: 'Want to upload files to Tixte using ShareX?',
         section: 'how',
         list: [{
             id: 1,
@@ -18,7 +18,7 @@ const json = {
             text: 'Go through the Installer.'
         }, {
             id: 4,
-            text: 'Open the <a href="https://tixte.com/dashboard/integrations" class="link">Intigrations Tab</a> on the Tixte Website and download the Standard Configuration for your desired Domain.',
+            text: 'Open the <a href="https://tixte.com/dashboard/integrations" class="link">Integrations Tab</a> on the Tixte dashboard and download the Standard Configuration for your desired Domain.',
             subs: ['Note that you will have to register a Domain and <a href="/read/domains" class="link">set it up with Tixte and/or set up a Subdomain</a> if not already done']
         },
     { 
@@ -27,7 +27,7 @@ const json = {
     },
 {
     id: 6,
-    text: 'Make a Screenshot and Confirm the next Confirmation Box made by ShareX to test everything.'
+    text: 'Take a Screenshot and Confirm the next Confirmation Box made by ShareX to test everything.'
 }],
 
     }]
