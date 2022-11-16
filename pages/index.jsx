@@ -46,6 +46,7 @@ export default class Homepage extends React.Component {
                         <Link href='/go/luna'>
                             <div style={{color: '#919191'}}>An open source project by <a className='link'>Luna</a>.</div>
                         </Link>
+                        <div style={{color: '#5f5f5f'}}><br />This site is not endorsed by or affiliated with Tixte, LLC.</div>
                     </div>
                 </div>
             </>
